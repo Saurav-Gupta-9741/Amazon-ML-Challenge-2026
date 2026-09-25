@@ -1,0 +1,11 @@
+# Ignore raw dataset files (>100MB each)
+dataset/
+
+# Ignore raw 554MB candidate_pairs.tsv and 264MB monolithic zip (stored in submission_parts/ <90MB each)
+output/candidate_pairs.tsv
+CognitiveAI_submission.zip
+
+# Python cache & OS files
+__pycache__/
+*.pyc
+.DS_Store
